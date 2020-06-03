@@ -1,0 +1,58 @@
+html{
+    font-family: 'Roboto', sans-serif; 
+}
+/* BOX MODEL
+
+Modelo de caixa
+Toda caixa tem 
+largura, altura, espcamentos, preenchimentos, bordas, cor, fundo, maneira que é vista pelo html, alinhamento, posicionamento */
+body{
+    background-color:#2d2a4b;
+    
+    color: var(--default-text);
+    -webkit-font-smoothing: antialiased;
+/**/
+    /*#131346b4;*/
+    /* #4e8b5d;*/
+}
+#page-home{
+    background: url('../extras-aula-1/icones/home-background.svg') no-repeat;
+    height: 100vh;
+    /* o vw tem a ver com a largura e também é dinâmico,assim como o vh.
+    O bottom serve para que a imagem fique no final da página*/
+    background-position: 35vw bottom;
+}
+
+#pagehome .content{
+
+     /* Para que ao minimizar a tela, ela seja adequada ao espaço que lhe foi atribuida, já se eu não quisesse que ela se adequasse
+    eu deveria usar o px que é uma unidade de medida fixa*/
+    width: 90%;
+    /* Posso definir também a largura máxima, usando o comando abaixo, passou disso ele não passa e se não chegar, ele ficará se adaptando */
+    max-width: 1100px;
+    /* para que os elementos estejam sempre alinhados, e quando a página for minimizada ou maximizada, os elementos estejam sempre ao centro e com uma distancia igual, pois 
+    é importante lembrar que como o display é bloc, os elementos irão ocupar toda a linha, assim mesmo o elemento estando em determinado lugar, será adicionado a ele
+    um espaço meio que default, para resolver isso e para que os elementos fiquem alinhados usamos:
+    0 vai ser aplicado para o top e o bottom e o auto será aplicado para as laterais*/
+    margin: 0 auto;
+
+}
+#page-home header a{
+    display: flex;
+}
+#page-home header{
+    /**/
+    display: flex;
+    /* para alinhar os itens, caso um item esteja acima ou abaixo*/
+    align-items: center;
+    /*Para justificar o conteudo de dentro e para colocar um espaço entre os itens */
+    justify-content: space-between;
+}
+#page-home header a span{
+    display: flex;
+    background-image: url(/extras-aula-1/icones/log-in.svg);
+    width: 20px;
+    height: 20px;
+    
+
+}
