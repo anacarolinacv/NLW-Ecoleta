@@ -1,58 +1,156 @@
+:root{
+    --title-color: #322153;
+    --primary-color: #34cb79;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
 html{
-    font-family: 'Roboto', sans-serif; 
+    font-family: 'Roboto', sans-serif;
 }
-/* BOX MODEL
 
-Modelo de caixa
-Toda caixa tem 
-largura, altura, espcamentos, preenchimentos, bordas, cor, fundo, maneira que é vista pelo html, alinhamento, posicionamento */
 body{
-    background-color:#2d2a4b;
-    
-    color: var(--default-text);
+    background: #28a02431;
     -webkit-font-smoothing: antialiased;
-/**/
-    /*#131346b4;*/
-    /* #4e8b5d;*/
-}
-#page-home{
-    background: url('../extras-aula-1/icones/home-background.svg') no-repeat;
-    height: 100vh;
-    /* o vw tem a ver com a largura e também é dinâmico,assim como o vh.
-    O bottom serve para que a imagem fique no final da página*/
-    background-position: 35vw bottom;
 }
 
-#pagehome .content{
+a{
+    text-decoration: none;
+}
 
-     /* Para que ao minimizar a tela, ela seja adequada ao espaço que lhe foi atribuida, já se eu não quisesse que ela se adequasse
-    eu deveria usar o px que é uma unidade de medida fixa*/
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--title-color);
+}
+
+#page-home {
+    background: url("../icones/home-background.svg") no-repeat;
+    height: 110vh;
+    background-position: 40vw bottom;
+
+}
+
+#page-home .content{
     width: 90%;
-    /* Posso definir também a largura máxima, usando o comando abaixo, passou disso ele não passa e se não chegar, ele ficará se adaptando */
     max-width: 1100px;
-    /* para que os elementos estejam sempre alinhados, e quando a página for minimizada ou maximizada, os elementos estejam sempre ao centro e com uma distancia igual, pois 
-    é importante lembrar que como o display é bloc, os elementos irão ocupar toda a linha, assim mesmo o elemento estando em determinado lugar, será adicionado a ele
-    um espaço meio que default, para resolver isso e para que os elementos fiquem alinhados usamos:
-    0 vai ser aplicado para o top e o bottom e o auto será aplicado para as laterais*/
-    margin: 0 auto;
+    margin: 0 auto ;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
 
-}
-#page-home header a{
+
+#page-home header a {
+    margin-top: 50px;
     display: flex;
+    color: var(--title-color);
+    font-weight: 700;
+    
 }
-#page-home header{
-    /**/
-    display: flex;
-    /* para alinhar os itens, caso um item esteja acima ou abaixo*/
-    align-items: center;
-    /*Para justificar o conteudo de dentro e para colocar um espaço entre os itens */
-    justify-content: space-between;
-}
+
 #page-home header a span{
+    margin-right: 16px;
     display: flex;
-    background-image: url(/extras-aula-1/icones/log-in.svg);
+    background-image: url("../icones/log-in.svg");
     width: 20px;
     height: 20px;
-    
 
+
+}
+
+#page-home main{
+
+    max-width: 560px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+}
+
+#page-home main p{
+    font-size: 24px;
+    line-height: 38px;
+    margin-top: 24px;
+}
+
+#page-home main h1{
+
+    font-size: 54px;
+
+
+}
+
+#page-home main a{
+    width: 100%;
+    max-width: 360px;
+    height: 72px;
+    background-color: var(--primary-color);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    transition: 400ms;
+
+}
+
+#page-home main a:hover {
+    background-color: #2fb86e;
+}
+
+#page-home main a span{
+    width: 72px;
+    height: 72px;
+    border-top-left-radius : 8px;
+    border-bottom-left-radius: 8px;
+    background-color: rgba(0,0,0, 0.08);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#page-home main a span::after {
+    content: "";
+    background-image: url("../icones/search.svg");
+    width: 20px;
+    height: 20px;
+    transform: scale(1.5);
+}
+
+#page-home main a strong{
+    flex: 1;
+    color: white;
+    text-align: center;
+}
+
+@media (max-width: 900px){
+    #page-home{
+        background-position-x:70vw ;
+    }
+
+    #page-home .content{
+        align-items: center;
+        text-align: center;
+    }
+
+    #page-home header a {
+        position: absolute;
+        bottom: 48px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #page-home main{
+        align-items: center;
+    }
 }
