@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -31,17 +31,17 @@
 
                         <div class="field">
                             <label for="name">Nome da entidade</label>
-                            <input type="text" name="name">
+                            <input type="text" name="name" required>
 
                         </div>
                         <div class="field-group">
                             <div class="field">
                                 <label for="adress">Endereço</label>
-                                <input type="text" name="adress">
+                                <input type="text" name="adress" required>
                             </div>
                             <div class="field">
                                 <label for="adress2">Número/Complemento</label>
-                                <input type="text" name="adress2">
+                                <input type="text" name="adress2" required>
 
                             </div>
                         </div>
@@ -49,14 +49,14 @@
                         <div class="field-group">
                             <div class="field">
                                 <label for="adress2">Estado</label>
-                                <select name="uf">
+                                <select name="uf" required>
                                     <option value="">Selecione o Estado </option>
                                 </select>
                             </div>
 
                             <div class="field">
                                 <label for="city">Cidade</label>
-                                <select name="city" disabled>
+                                <select name="city" disabled required>
                                     <option value="">Selecione a Cidade </option>
                                 </select>
                                 <input type="hidden" name="state">
