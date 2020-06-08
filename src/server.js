@@ -1,3 +1,5 @@
+
+
 const express = require("express")
 const server = express()
 
@@ -36,7 +38,7 @@ server.get("/create-point", (req, res) => {
 })*/
 
 server.get("/", (req, res) => {
-    return res.render("index.html", {title: "um título"})
+    return res.render("index.html", {title: "Um title"})
 
 })
 
@@ -47,6 +49,7 @@ server.get("/create-point", (req, res) => {
 server.get("/search", (req, res) => {
     return res.render("search-results.html")
 })
+
 
 
 
