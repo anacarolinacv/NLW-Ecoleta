@@ -14,12 +14,12 @@ module.exports = db
 // utilizar o objeto de banco de dados, para nossas operações
 // o serialize é responsável por executar uma sequência de código
 
- db.serialize(() => {
+   db.serialize(() => {
     // com comandos SQL eu vou :
     // 1. criar uma tabela
     //  com crases é possível criar quebras de linha 
 
-    db.run(`
+      db.run(`
     CREATE TABLE IF NOT EXISTS places (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         image TEXT, 
@@ -45,14 +45,14 @@ module.exports = db
     ) VALUES (?,?,?,?,?,?,?); `
 
     const values = [
-        "https://images.unsplash.com/photo-1528323273322-d81458248d40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=801&q=80", 
-        "Colectoria",
+        "https://images.unsplash.com/photo-1567393528677-d6adae7d4a0a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
+        "Papersider",
         "Guilherme Gemballa, Jardim América",
         "Número 260",
         "Santa Catarina",
         "Rio do Sul", 
         "Resíduos Eletrônicos, Lâmpadas"
-    ]
+    ] 
 
     function afterInsertData(err){
 
@@ -69,10 +69,8 @@ module.exports = db
         }
 
         db.run(query, values, afterInsertData)
-           
 
-
-     // 3. consultar os dados da tabela
+/*      // 3. consultar os dados da tabela
     db.all(` SELECT * FROM places`, function(err, rows){
         if(err){
             return console.log(err)
@@ -81,17 +79,14 @@ module.exports = db
         console.log(rows)
 
     }) 
-
-
-
-
      //4. Deletar um dado da tabela 
-    db.run(`DELETE FROM places WHERE id = ?`, [1], function(err){
+    db.run(`DELETE FROM places`, function(err){
         if(err){
             return console.log(err)
         }
         console.log("Registro deletado com sucesso")
 
-    }) 
+    })*/ 
+ 
 
 })

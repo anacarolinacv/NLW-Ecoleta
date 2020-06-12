@@ -50,7 +50,18 @@ server.get("/create-point", (req, res) => {
 })
 
 server.get("/search", (req, res) => {
-    return res.render("search-results.html")
+
+     // 3. consultar os dados da tabela
+     db.all(` SELECT * FROM places`, function(err, rows){
+        if(err){
+            return console.log(err)
+        }
+        const total = rows.length
+        // mostrar a página html com as informações do banco de dados
+        return res.render("search-results.html", {places: rows, total: total})
+
+    }) 
+
 })
 
 
