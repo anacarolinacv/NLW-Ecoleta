@@ -3,6 +3,9 @@
 const express = require("express")
 const server = express()
 
+// capturando o banco de dados
+const db = require("./database/db.js")
+
 // configurar pasta public
 // uso da use quer dizer que está sendo feito uma conf do servidor
 server.use(express.static("public"))
