@@ -19,7 +19,7 @@ module.exports = db
     // 1. criar uma tabela
     //  com crases é possível criar quebras de linha 
 
-      db.run(`
+/*       db.run(`
     CREATE TABLE IF NOT EXISTS places (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         image TEXT, 
@@ -78,15 +78,13 @@ module.exports = db
         console.log("Aqui estão os seus registros: ")
         console.log(rows)
 
-    }) 
+    })  
      //4. Deletar um dado da tabela 
-    db.run(`DELETE FROM places`, function(err){
+    db.run(`DELETE FROM places WHERE id = ?`,[1], function(err){
         if(err){
             return console.log(err)
         }
         console.log("Registro deletado com sucesso")
 
-    })*/ 
- 
-
-})
+    })
+*/})
