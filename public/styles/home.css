@@ -31,6 +31,7 @@
     
 }
 
+
 #page-home header a span{
     margin-right: 16px;
     display: flex;
@@ -38,7 +39,11 @@
     width: 20px;
     height: 20px;
 
-
+}
+#page-home header a span:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.2); 
 }
 
 #page-home main{
@@ -79,6 +84,11 @@
 
 #page-home main a:hover {
     background-color: #2fb86e;
+    -moz-transform: scale(1.1);
+ 	-webkit-transform: scale(1.1);
+    transform: scale(1.03); 
+    
+    
 }
 
 #page-home main a span{
@@ -101,6 +111,8 @@
     height: 20px;
     transform: scale(1.5);
 }
+
+
 
 #page-home main a strong{
     flex: 1;
