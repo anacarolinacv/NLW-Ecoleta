@@ -10,7 +10,6 @@
 # :bookmark: Sobre
 
 O Ecoleta é um projeto desenvolvido pela trilha **Start** durante o evento **Next Level Week** produzido pela [RocketSeat](https://rocketseat.com.br/).
-
 Que tem como principal objetivo facilitar e agilizar a conexão entre empresas e entidades responsáveis pela coleta de lixo orgânico e/ou inorgânico com pessoas e empresas que necessitam descartar estes materiais e procuram fazer da melhor maneira possível para o meio ambiente.
 
 ---
