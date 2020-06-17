@@ -2,10 +2,10 @@
 
 ## Índice
 
-- [Sobre](#Sobre)
-- [Tecnologias utilizadas](#Tecnologias-utilizadas)
-- [Como ter acesso?](#Como-ter-acesso-?)
-- [Resultado](#Resultado)
+- [Sobre](#sobre)
+- [Tecnologias utilizadas](#tecnologias-utilizadas)
+- [Como ter acesso?](#como-ter-acesso?)
+- [Resultado](#resultado)
 
 # :bookmark: Sobre
 
