@@ -29,7 +29,7 @@ O Ecoleta tem como principal objetivo facilitar e agilizar a conexão entre empr
 - [X] Nunjucks
 - [X] Para a persistência de dados, foi utilizado o `sqlite3`.
 
-# :mag: Como ter acesso:
+# :mag: Como ter acesso ?
 
 O projeto não foi hospedado, mas pode pode ser executado em seu computador,para isto:
 
