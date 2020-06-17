@@ -3,10 +3,10 @@
 ## Índice
 - [Sobre](#Sobre)
 - [Tecnologias utilizadas](#Tecnologias-utilizadas)
-- [Como ter acesso](#Como-ter-acesso)
+- [Como ter acesso ?](#Como-ter-acesso-?)
 - [Resultado](#Resultado)
 
-O Ecoleta é um projeto desenvolvido pela trilha **Start** durante o evento **Next Level Week** produzido pela [RocketSeat(https://rocketseat.com.br/)
+O Ecoleta é um projeto desenvolvido pela trilha **Start** durante o evento **Next Level Week** produzido pela [RocketSeat](https://rocketseat.com.br/)
 
 # :bookmark: Sobre
 
