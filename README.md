@@ -4,32 +4,39 @@
 
 - [Sobre](#Sobre)
 - [Tecnologias utilizadas](#Tecnologias-utilizadas)
-- [Como ter acesso ?](#Como-ter-acesso-?)
+- [Como ter acesso?](#Como-ter-acesso-?)
 - [Resultado](#Resultado)
-
 
 # :bookmark: Sobre
 
-O Ecoleta é um projeto desenvolvido pela trilha **Start** durante o evento **Next Level Week** produzido pela [RocketSeat](https://rocketseat.com.br/). E tem como principal objetivo facilitar e agilizar a conexão entre empresas e entidades responsáveis pela coleta de lixo orgânico e/ou inorgânico com pessoas e empresas que necessitam descartar estes materiais e procuram fazer da melhor maneira possível para o meio ambiente.
+O Ecoleta é um projeto desenvolvido pela trilha **Start** durante o evento **Next Level Week** produzido pela [RocketSeat](https://rocketseat.com.br/).
+
+Que tem como principal objetivo facilitar e agilizar a conexão entre empresas e entidades responsáveis pela coleta de lixo orgânico e/ou inorgânico com pessoas e empresas que necessitam descartar estes materiais e procuram fazer da melhor maneira possível para o meio ambiente.
+
+---
 
 # :rocket: Tecnologias utilizadas:
 
-## :earth_americas: Front-end:
 
-- [X] HTML
-- [X] CSS
-- [X] JavaScript
+  ## :earth_americas: Front-end:
 
-## :coffee: Back-end:
+  - [X] HTML
+  - [X] CSS
+  - [X] JavaScript
 
-- [X] JavaScript
-- [X] Node
-- [X] Express
-- [X] Nodemon
-- [X] Nunjucks
-- [X] Para a persistência de dados, foi utilizado o `sqlite3`.
 
-# :mag: Como ter acesso ?
+  ## :coffee: Back-end:
+
+  - [X] JavaScript
+  - [X] Node
+  - [X] Express
+  - [X] Nodemon
+  - [X] Nunjucks
+  - [X] Para a persistência de dados, foi utilizado o `sqlite3`.
+
+
+---
+# :mag: Como ter acesso?
 
 O projeto não foi hospedado, mas pode pode ser executado em seu computador, para isto:
 
@@ -37,7 +44,7 @@ O projeto não foi hospedado, mas pode pode ser executado em seu computador, par
 
   ```git clone https://github.com/LeandraOliveiraS/NLW-Ecoleta.git```
 
-- **Instale o [NodeJS](https://nodejs.org/en/download/)**
+- **Instale o [NodeJS](https://nodejs.org/en/download/).**
 
 - **Na pasta raiz do projeto, instale as dependências:**
 
@@ -51,4 +58,6 @@ O projeto não foi hospedado, mas pode pode ser executado em seu computador, par
   
     ```localhost:3000```
     
+---
+
 # :recycle: Resultado :computer:
