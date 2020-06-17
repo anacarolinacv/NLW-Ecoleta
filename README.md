@@ -1,16 +1,16 @@
 <img src="https://raw.githubusercontent.com/LeandraOliveiraS/NLW-Ecoleta/a57c84b4b5d2f0c0a0025fc6014a371d8295c5e3/public/icones/logo.svg">
 
 ## Índice
+
 - [Sobre](#Sobre)
 - [Tecnologias utilizadas](#Tecnologias-utilizadas)
 - [Como ter acesso ?](#Como-ter-acesso-?)
 - [Resultado](#Resultado)
 
-O Ecoleta é um projeto desenvolvido pela trilha **Start** durante o evento **Next Level Week** produzido pela [RocketSeat](https://rocketseat.com.br/)
 
 # :bookmark: Sobre
 
-O Ecoleta tem como principal objetivo facilitar e agilizar a conexão entre empresas e entidades responsáveis pela coleta de lixo orgânico e/ou inorgânico com pessoas e empresas que necessitam descartar estes materiais e procuram fazer da melhor maneira possível para o meio ambiente.
+O Ecoleta é um projeto desenvolvido pela trilha **Start** durante o evento **Next Level Week** produzido pela [RocketSeat](https://rocketseat.com.br/). E tem como principal objetivo facilitar e agilizar a conexão entre empresas e entidades responsáveis pela coleta de lixo orgânico e/ou inorgânico com pessoas e empresas que necessitam descartar estes materiais e procuram fazer da melhor maneira possível para o meio ambiente.
 
 # :rocket: Tecnologias utilizadas:
 
@@ -31,7 +31,7 @@ O Ecoleta tem como principal objetivo facilitar e agilizar a conexão entre empr
 
 # :mag: Como ter acesso ?
 
-O projeto não foi hospedado, mas pode pode ser executado em seu computador,para isto:
+O projeto não foi hospedado, mas pode pode ser executado em seu computador, para isto:
 
 - **Clone o repositório na sua máquina:**
 
